@@ -9,3 +9,20 @@ datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
+
+model CoolWall {
+  id             Int     @id
+  Car            String
+  Ranking        Ranking @relation(fields: [rankingId], references: [id])
+  InitialRanking String?
+  Series         Int
+  Episode        Int
+  rankingId      Int
+}
+
+model Ranking {
+  id       Int        @id
+  rank     String
+  desc     String
+  CoolWall CoolWall[]
+}
