@@ -8,5 +8,8 @@
   },
   "dependencies": {
     "nitropack": "latest"
+  },
+  "devDependencies": {
+    "prisma": "^5.8.1"
   }
 }
