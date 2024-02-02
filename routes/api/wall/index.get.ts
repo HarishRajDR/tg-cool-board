@@ -1,4 +1,4 @@
-import { prisma } from "../../db/prisma-init";
+import { prisma } from "../../../db/prisma-init";
 
 export default defineEventHandler(async (event) => {
   try {
@@ -12,8 +12,8 @@ export default defineEventHandler(async (event) => {
         },
       },
     });
-    return data;
+    return { data: data };
   } catch (error) {
-    setResponseStatus(event, 503, "Server error");
+    setResponseStatus(event, 500, "Server error");
   }
 });
