@@ -32,5 +32,6 @@ export default defineEventHandler(async (event) => {
     return { data: data };
   } catch (error) {
     setResponseStatus(event, 503, "Server error");
+    return { message: "Server Error" };
   }
 });
