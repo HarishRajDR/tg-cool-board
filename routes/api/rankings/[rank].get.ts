@@ -17,7 +17,7 @@ export default defineEventHandler(async (event) => {
   const rankID = rankings[rank];
 
   if (rankID === undefined) {
-    setResponseStatus(event, 403, `${rank} is not a valid rank`);
+    setResponseStatus(event, 400, `${rank} is not a valid rank`);
     return { message: `${rank} is not a valid rank` };
   }
 
@@ -31,7 +31,7 @@ export default defineEventHandler(async (event) => {
     });
     return { data: data };
   } catch (error) {
-    setResponseStatus(event, 503, "Server error");
+    setResponseStatus(event, 500, "Server error");
     return { message: "Server Error" };
   }
 });
