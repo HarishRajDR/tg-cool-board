@@ -1,4 +1,4 @@
-import { prisma } from "../../db/prisma-init";
+import { prisma } from "../../../db/prisma-init";
 
 export default defineEventHandler(async (event) => {
   try {
