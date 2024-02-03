@@ -6,6 +6,6 @@ export default defineEventHandler(async (event) => {
     return { data: data };
   } catch (error) {
     setResponseStatus(event, 500, "Server error");
-    return { message: "Server Error" };
+    return { message: "Server Error", error: error };
   }
 });
