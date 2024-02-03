@@ -1,6 +1,14 @@
-# Nitro Minimal Starter
+# Top Gear Cool Wall API
 
-Look at the [Nitro documentation](https://nitro.unjs.io/) to learn more.
+The Cool Wall, introduced in the sixth episode of Series 1, was a wall on which Top Gear presenters Jeremy Clarkson and Richard Hammond decided which cars were cool and which were not by placing photographs of them on to various sections of the wall. The categories were, from left to right; 'Seriously Uncool', 'Uncool', 'Cool', and 'Sub Zero'. Later the categories were expanded.
+
+## Technologies used
+
+- [Nitro](https://nitro.unjs.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vercel Postgres](https://vercel.com/storage/postgres)
+- [Prisma](https://prisma.io)
+- [Vercel](https://vercel.com/)
 
 ## Setup
 
@@ -9,12 +17,6 @@ Make sure to install the dependencies:
 ```bash
 # npm
 npm install
-
-# yarn
-yarn install
-
-# pnpm
-pnpm install
 ```
 
 ## Development Server
@@ -39,4 +41,10 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nitro.unjs.io/deploy) for more information.
+## Contributing
+
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
