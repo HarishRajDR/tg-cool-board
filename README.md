@@ -10,6 +10,10 @@ The Cool Wall, introduced in the sixth episode of Series 1, was a wall on which 
 - [Prisma](https://prisma.io)
 - [Vercel](https://vercel.com/)
 
+## Documentation
+
+Comming soon
+
 ## Setup
 
 Make sure to install the dependencies:
