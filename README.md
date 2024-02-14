@@ -131,8 +131,8 @@ Response
 ```
 
 The available ranks are,
-| Rank | descroption                 | endpoint           |
-| ---- | --------------------------- | ------------------ |
+| Rank | Descroption                 | Endpoint             |
+| ---- | --------------------------- | -------------------- |
 | SZF  | Sub-Zero Fridge-bar         | `/api/rankings/szf`  |
 | SZ   | Sub-Zero (best)             | `/api/rankings/sz`   |
 | C    | Cool (good)                 | `/api/rankings/c`    |
